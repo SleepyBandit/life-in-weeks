@@ -5,6 +5,7 @@ $(function() {
     changeYear: true,
     changeMonth: true,
     showMonthAfterYear: true,
+    yearRange: "-100:+0",
     minDate: "-90Y", 
     maxDate: "-1D" 
   });
