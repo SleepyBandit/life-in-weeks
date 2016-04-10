@@ -69,10 +69,15 @@ content: "\2014 \2009";
 .footer ul {
   text-align: center;
   padding-right: 50px;
-  padding-bottom: 25px;
   font-family: sans-serif;
   font-size: 11px;
   list-style: none;    
+}
+.footer ul.last {
+  padding-bottom: 25px;
+}
+.footer li {
+  display: inline;
 }    
 .state {
   text-align: center;
