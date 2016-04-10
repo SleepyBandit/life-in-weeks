@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Your Life in Weeks</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.4/themes/cupertino/jquery-ui.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Your Life in Weeks</h1>
+    </div>
+    <div class="inputs">
+      <input type="text" id="datepicker" placeholder="enter birth date">
+      <button id="viewBtn" class="button">calculate</button>       
+    </div>    
+    <div class="graph">
+      <svg class="svg" width="550" height="900"></svg>
+    </div>
+    <div class="footer">
+      <ul>
+        <li>Based on <a href="http://waitbutwhy.com/2014/05/life-weeks.html">life in weeks</a></li>
+        <li>Made by <a href="https://twitter.com/matt_greene">Matt Greene</a></li>
+        <li><a href="https://twitter.com/tilredditrecap">TIL Reddit Recap</a> | <a href="http://sleepybandit.github.io/TodayInHistory/">Today In History</a></li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script> 
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <script src="https://raw.githubusercontent.com/mbostock/d3/master/d3.min.js"></script>
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  <script src="js/life.js"></script>
+</body>
+</html>

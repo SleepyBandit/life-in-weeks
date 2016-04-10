@@ -1,0 +1,157 @@
+body {
+  background-image: url(../images/back.png);
+}
+.cells {
+  fill: #d3d3d3;
+}
+.cells .active {
+  fill: #0080ff;
+}
+.cells .early {
+  fill: #A6D3FF;
+}
+.cells .elem {
+  fill: #82C1C1;
+}
+.cells .middle {
+  fill: #9DD894;
+}
+.cells .high {
+  fill: #FFFF94;
+}
+.cells .college {
+  fill: #FFC68C;
+}
+.cells .career {
+  fill: #FF9C9C;
+}
+.cells .retire {
+  fill: #C8B5DA;
+}           
+.cells .highlight {
+  fill: gold;
+}
+.header h1 {
+  font: 48px sans-serif;
+  text-align: center;
+  padding-right: 20px;
+}
+.footer ul {
+  text-align: center;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  font-family: sans-serif;
+  font-size: 11px;
+  list-style: none;    
+}    
+.state {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5px;
+  font-size: 18px;
+  color:#FFFF94;
+} 
+.show {
+  visibility: visible;
+}
+.label {
+  text-anchor: middle;
+  font: 28px sans-serif;
+}
+.int {
+  font: 12px sans-serif;
+  text-align: left;
+}
+.axis path {
+    fill: none;
+    stroke: none;
+}
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.svg, .inputs {
+  display: block;
+  margin: 0 auto;
+}
+
+.inputs {
+  text-align: center;
+  padding-bottom: 25px;
+  padding-right: 20px;
+}
+
+#datepicker:focus{
+  outline: none;
+}
+
+#datepicker {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #0093ec;
+  text-align: center;
+  font-size: 20px;
+  width: 150px;
+  height: 30px;
+}
+#datepicker::-webkit-input-placeholder {
+   color: #0093ec;
+}
+#datepicker:-moz-placeholder { /* Firefox 18- */
+   color: #0093ec;  
+}
+#datepicker::-moz-placeholder {  /* Firefox 19+ */
+   color: #0093ec;  
+}
+#datepicker:-ms-input-placeholder {  
+   color: #0093ec;  
+}
+.button {
+  transition: background-color 0.4s ease-in-out, border-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 1rem;
+  border: transparent 1px solid;
+  background-color: #0093ec;
+  color: #fff;
+  letter-spacing: 0.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-family: sans-serif;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
